@@ -1,0 +1,23 @@
+{
+  "name": "UIkit-Loader",
+  "version": "1.0.0",
+  "description": "Load modular UIkit 3 front-end framework to your Wordpress.",
+  "author": "Whydesign (Ludwig Jäschke)",
+  "license": "WTFPL-2.0",
+  "scripts": {
+    "watch": "webpack --watch --mode=production",
+    "build": "webpack --mode=production --config webpack.prod.js",
+    "watch -dev": "webpack --watch --mode=development",
+    "build -dev": "webpack --mode=development"
+  },
+  "dependencies": {
+    "uikit": "^3.17.11"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.19.0",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
